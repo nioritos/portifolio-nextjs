@@ -1,5 +1,8 @@
 .container {
   padding: 0 2rem;
+  width: 100vw
+  ;
+  height: 100vh;
 }
 
 .main {
@@ -28,6 +31,7 @@
   flex-grow: 1;
 }
 
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -49,6 +53,7 @@
 .description {
   text-align: center;
 }
+
 
 .description {
   margin: 4rem 0;
