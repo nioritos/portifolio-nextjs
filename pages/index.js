@@ -25,32 +25,26 @@ export default function Home() {
         </ul>
       </header>
 
-      <main className="container min-h-full min-w-full">
-        <section id="home flex flex-col justify-center items-center">
-          <div className="flex flex-col items-center m-auto w-90">
+      <main className="container min-h-full min-w-full mt-14">
+        <section id="home" className='flex flex-row flex-wrap items-center justify-center min-h-full min-w-screen'>
+          <div className="flex flex-col justify-center items-center md:items-start md:max-w-[40%] min-w-[40%] m-auto">
             <h1 className='font-bold text-teal-500 text-4xl'>Junior Guimarães</h1>
-            <h2 className='font-medium text-lg p-2'>Web Developer and UI/UX Designer</h2>
-            <p className='text-base text-center'>Freelancer providing services for programming and design content needs. Contact me now!</p>
+            <h2 className='font-medium text-lg mt-2'>Web Developer and UI/UX Designer</h2>
+            <p className='text-base text-center md:text-start mt-2'>Freelancer providing services for programming and design content needs. Contact me now!</p>
+            <ul className='flex justify-center items-center gap-4 my-4'>
+              <li><AiFillTwitterCircle size="36" /></li>
+              <li><AiFillLinkedin size="36" /></li>
+              <li><AiFillInstagram size="36" /></li>
+              <li><AiFillYoutube size="36" /></li>
+            </ul>
           </div>
-
-          <ul className='flex justify-center items-center gap-4'>
-            <li>
-              <AiFillTwitterCircle size="32" />
-            </li>
-            <li>
-              <AiFillLinkedin size="32" />
-            </li>
-            <li>
-              <AiFillInstagram size="32" />
-            </li>
-            <li>
-              <AiFillYoutube size="32" />
-            </li>
-          </ul>
-          <div className="bg-gradient-to-b from-teal-500 circle rounded-full w-80 h-80 m-auto relative overflow-hidden">
+          <div className="bg-gradient-to-b from-teal-500 circle rounded-full w-80 h-80 relative overflow-hidden m-auto">
             <Image src={deved} layout="fill" objectFit="cover" />
           </div>
+        </section>
 
+        <section id="projects" className='mt-60 flex justify-center items-center'>
+          <h1 className='text-teal-500 text-4xl font-bold'>Projects</h1>
         </section>
       </main>
     </div>
