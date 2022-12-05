@@ -4,6 +4,9 @@ import Link from 'next/link';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillTwitterCircle, AiFillYoutube, AiFillInstagram } from 'react-icons/ai';
 import deved from '../public/dev-ed-wave.png';
+import design from '../public/design.png';
+import consulting from '../public/consulting.png';
+import code from '../public/code.png';
 
 
 export default function Home() {
@@ -18,10 +21,10 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
       <header className='flex w-full h-16 justify-between items-center'>
-        <h1 className=' dark:text-gray-200 text-black font-bold text-xl' id='logo'>nioritos</h1>
+        <h1 className=' dark:text-white text-black font-bold text-xl' id='logo'>nioritos</h1>
         <ul className='flex gap-4 justify-center items-center'>
           <li><BsFillMoonStarsFill size="24" className='hover:cursor-pointer' /></li>
-          <li className='bg-teal-500 rounded-lg py-2 px-4 duration-700 hover:bg-teal-600'><Link href="" className='text-white'>Resume</Link></li>
+          <li className='bg-teal-500 rounded-lg py-2 px-4 duration-700 hover:bg-teal-600'><Link href="" className='text-gray-200'>Resume</Link></li>
         </ul>
       </header>
 
@@ -32,11 +35,12 @@ export default function Home() {
             <h2 className='font-medium text-lg mt-2 dark:text-gray-200'>Web Developer and UI/UX Designer</h2>
             <p className='text-base text-center md:text-start mt-2 dark:text-gray-300'>Freelancer providing services for programming and design content needs. Contact me now!</p>
             <ul className='flex justify-center items-center gap-4 my-4'>
-              <li><AiFillTwitterCircle size="36" className='dark:fill-white'/></li>
-              <li><AiFillLinkedin size="36" className='dark:fill-white'/></li>
-              <li><AiFillInstagram size="36" className='dark:fill-white'/></li>
-              <li><AiFillYoutube size="36" className='dark:fill-white'/></li>
+              <li><AiFillTwitterCircle size="36" className='dark:fill-white' /></li>
+              <li><AiFillLinkedin size="36" className='dark:fill-white' /></li>
+              <li><AiFillInstagram size="36" className='dark:fill-white' /></li>
+              <li><AiFillYoutube size="36" className='dark:fill-white' /></li>
             </ul>
+            <Link href="" className='bg-teal-500 py-2 px-20 rounded-lg mb-8'><strong>See more</strong></Link>
           </div>
           <div className="bg-gradient-to-b from-teal-500 circle rounded-full w-80 h-80 relative overflow-hidden m-auto">
             <Image src={deved} layout="fill" objectFit="cover" />
@@ -44,20 +48,72 @@ export default function Home() {
         </section>
 
         <section id="services" className='mt-60 flex justify-center items-center'>
-          <div className="flex-col">
-          <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p>
+          <div className="flex-col md:justify-center md:items-center">
+            <div className=' flex-col mb-10 md:max-w-[70%] md:justify-center md:items-center'>
+              <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                Since the beginning of my journey as a freelance designer and
+                developer, I've done remote work for
+                <span className="text-teal-500"> agencies </span>
+                consulted for <span className="text-teal-500">startups </span>
+                and collaborated with talanted people to create digital products
+                for both business and consumer use.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                I offer from a wide range of services, including brand design,
+                programming and teaching.
+              </p>
+            </div>
+
+            <ul className='w-full flex flex-wrap gap-4 md:justify-center md:items-center'>
+              <li className='dark:bg-white flex flex-col justify-center items-center w-full h-112 dark:text-zinc-900 rounded-lg md:w-[30%]'>
+                <div className='p-6 flex flex-col justify-center items-center'>
+                  <Image src={code} width="100" height="100" />
+                  <h3 className='font-bold text-lg text-teal-600'>Semantic and performatic code</h3>
+                  <h4 className='font-semibold'>Development tecnologies use</h4>
+                  <ul className='mt-4 text-gray-800 font-medium flex flex-col justify-center items-center max-w-[80%] gap-4'>
+                    <li className=''>Nextjs</li>
+                    <li className=''>Typescript</li>
+                    <li className=''>Nodejs</li>
+                    <li className=''>Prisma</li>
+                    <li className=''>React Native</li>
+                    <li><Link href="https://github.com/nioritos" className='text-teal-600'>View more</Link></li>
+                  </ul>
+                </div>
+              </li>
+              <li className='dark:bg-white flex flex-col justify-center items-center w-full h-112 dark:text-zinc-900 rounded-lg md:w-[30%]'>
+                <div className='p-6 flex flex-col justify-center items-center'>
+                  <Image src={design} width="100" height="100" />
+                  <h3 className='font-bold text-lg text-teal-600'>Modern layouts</h3>
+                  <h4 className='font-semibold'>Design tools i use</h4>
+                  <ul className='mt-4 text-gray-800 font-medium flex flex-col justify-center items-center max-w-[80%] gap-4'>
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Photoshop</li>
+                  </ul>
+                </div>
+              </li>
+              <li className='dark:bg-white flex flex-col justify-center items-center h-112 dark:text-zinc-900 rounded-lg md:w-[30%]'>
+                <div className='p-6 flex flex-col justify-center items-center'>
+                  <Image src={consulting} width="100" height="100" />
+                  <h3 className='font-bold text-lg text-teal-600'>Semantic and performatic code</h3>
+                  <h4 className='font-semibold'>Development tecnologies use</h4>
+                  <ul className='mt-4 text-gray-800 font-medium flex flex-wrap justify-center items-center max-w-[80%] gap-4'>
+                    <li className=''>Reactjs</li>
+                    <li className=''>Nextjs</li>
+                    <li className=''>Javascript</li>
+                    <li className=''>Typescript</li>
+                    <li className=''>Nodejs</li>
+                    <li className=''>Express</li>
+                    <li className=''>Prisma</li>
+                    <li className=''>SQLite</li>
+                    <li className=''>Electronjs</li>
+                    <li className=''>React Native</li>
+                  </ul>
+                </div>
+              </li>
+
+            </ul>
           </div>
         </section>
       </main>
