@@ -43,7 +43,7 @@ function Services() {
               </div>
             </li>
             <li className=' bg-zinc-900 dark:bg-white flex flex-col justify-center items-center w-full h-112 dark:text-zinc-900 rounded-lg md:w-[30%]'>
-              <div className='px-6 py-20 flex flex-col justify-center items-center text-center'>
+              <div className='px-6 py-28 flex flex-col justify-center items-center text-center'>
                 <Image src={design} width="100" height="100" alt='icon of a UI and UX Designer' />
                 <h3 className='font-bold text-lg text-teal-600'>Modern and beatyful layouts</h3>
                 <h4 className='font-semibold'>I do layout with my knowledges about UI and UX Design</h4>
@@ -56,12 +56,16 @@ function Services() {
               </div>
             </li>
             <li className=' bg-zinc-900 dark:bg-white flex flex-col justify-center items-center w-full h-112 dark:text-zinc-900 rounded-lg md:w-[30%]'>
-              <div className='px-6 py- flex flex-col justify-center items-center'>
+              <div className='px-6 py-20 flex flex-col justify-center items-center text-center'>
                 <Image src={consulting} width="100" height="100" alt='icon of a better code' />
                 <h3 className='font-bold text-lg text-teal-600'>Semanctic code, better to SEO</h3>
                 <h4 className='font-semibold text-center'>I write code with my knowledges about SEO Optimization, good for your business,blog, website...</h4>
-                <ul className='mt-4 text-gray-800 font-medium flex flex-wrap justify-center items-center max-w-[80%] gap-4'>
-
+                <h5 className='font-medium'>Good for ranking in</h5>
+                <ul className='mt-4 text-gray-800 font-medium flex flex-col justify-center items-center max-w-[80%] gap-4'>
+                  <li>Google search</li>
+                  <li>Bing search</li>
+                  <li>Yahoo search</li>
+                  <li>DuckDuckGo search</li>
                 </ul>
               </div>
             </li>
