@@ -39,17 +39,17 @@ export default function Home() {
             <h3 className="text-3xl py-1 text-teal-600 font-bold">project</h3>
             <ul className='grid grid-cols-3 mt-10'>
               <li className='p-2'>
-                <img src="" alt="img project" className='w-full h-4' />
+                <Image src="" alt="img project" className='w-full h-4' />
                 <h4>name project</h4>
                 <p>description project</p>
               </li>
               <li className='p-2'>
-                <img src="" alt="img project" className='w-full h-4' />
+                <Image src="" alt="img project" className='w-full h-4' />
                 <h4>name project</h4>
                 <p>description project</p>
               </li>
               <li className='p-2'>
-                <img src="" alt="img project" className='w-full h-4' />
+                <Image src="" alt="img project" className='w-full h-4' />
                 <h4>name project</h4>
                 <p>description project</p>
               </li>
