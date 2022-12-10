@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { AiFillLinkedin, AiFillTwitterCircle, AiFillYoutube, AiFillInstagram } from 'react-icons/ai';
 import deved from '../public/dev-ed-wave.png';
-import FaviconVercel from '../../public/favicon.ico';
+import FaviconVercel from '../public/favicon.ico';
 
 import Services from '../components/services/Services';
 import Header from '../components/header/Header';
@@ -16,7 +16,7 @@ export default function Home() {
       <Head>
         <title>Nioritos</title>
         <meta name="description" content="Nioritos's portifolio, here you will look my knowledges, projects and more about me" />
-        {/* <link rel="icon" href={FaviconVercel}/> */}
+        <link rel="icon" href={FaviconVercel}/>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
