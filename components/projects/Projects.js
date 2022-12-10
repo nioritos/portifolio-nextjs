@@ -10,17 +10,17 @@ function Projects() {
           <h4 className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 max-[860px]:text-left'>These are my projects, and the tecnologies i used to code it</h4>
           </div>
           <ul className=' flex flex-wrap mt-10 gap-4 max-[860px]:items-center max-[860px]:justify-center max-[1255px]:justify-center'>
-            <li className='py-10 px-5 bg-[#101010] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col '>
+            <li className='py-16 px-5 shadow-2xl bg-gray-100 dark:bg-[#111111] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col '>
               <h4 className=' text-xl font-medium'>Lorem name project</h4>
               <p>lorem lorem lorem lorem lorem lorem projects</p>
               <Link href="https://github.com/nioritos" className='text-teal-600 text-sm'>View more</Link>
             </li>
-            <li className='py-10 px-5 bg-[#101010] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col '>
+            <li className='py-16 px-5 shadow-lg bg-gray-100 dark:bg-[#111111] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col '>
               <h4 className=' text-xl font-medium'>Lorem name project</h4>
               <p>lorem lorem lorem lorem lorem lorem projects</p>
               <Link href="https://github.com/nioritos" className='text-teal-600 text-sm'>View more</Link>
             </li>
-            <li className='py-10 px-5 bg-[#101010] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col '>
+            <li className='py-16 px-5 shadow-lg bg-gray-100 dark:bg-[#111111] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col '>
               <h4 className=' text-xl font-medium'>Lorem name project</h4>
               <p>lorem lorem lorem lorem lorem lorem projects</p>
               <Link href="https://github.com/nioritos" className='text-teal-600 text-sm'>View more</Link>

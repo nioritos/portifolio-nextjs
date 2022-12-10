@@ -26,13 +26,13 @@ function Services() {
           </div>
 
           <ul className='w-full  h-full flex flex-wrap gap-4 md:justify-center md:items-center'>
-            <li className=' bg-zinc-900 dark:bg-white flex flex-col justify-center items-center w-full h-112 dark:text-zinc-900 rounded-lg md:w-[30%]'>
-              <div className='p-6 flex flex-col justify-center items-center text-center'>
+            <li className='shadow-lg bg-gray-100 dark:bg-[#111111] flex flex-col justify-center items-center w-full h-112 dark:text-zinc-900 rounded-lg md:w-[30%]'>
+              <div className='px-6 py-10 flex flex-col justify-center items-center text-center dark:text-white'>
                 <Image src={code} width="100" height="100" alt='icon of a developer' />
                 <h3 className='font-bold text-lg text-teal-600'>Clean and perfomatic code</h3>
-                <h4 className='font-semibold '>I write code with my knowledges about clean and perfomatic code, applyed in very projects i coded</h4>
+                <h4 className='font-semibold '>I write code with my knowledges about clean and perfomatic code</h4>
                 <h5 className='font-medium'>Development tecnologies i use for programming</h5>
-                <ul className='mt-4 text-gray-800 font-medium flex flex-col justify-center items-center max-w-[80%] gap-4'>
+                <ul className='mt-4 text-gray-800 font-medium flex flex-col justify-center items-center max-w-[80%] gap-4 dark:text-white'>
                   <li className=''>Nextjs</li>
                   <li className=''>Typescript</li>
                   <li className=''>Nodejs</li>
@@ -42,26 +42,26 @@ function Services() {
                 </ul>
               </div>
             </li>
-            <li className=' bg-zinc-900 dark:bg-white flex flex-col justify-center items-center w-full h-112 dark:text-zinc-900 rounded-lg md:w-[30%]'>
-              <div className='px-6 py-28 flex flex-col justify-center items-center text-center'>
+            <li className='shadow-lg bg-gray-100 dark:bg-[#111111] flex flex-col justify-center items-center w-full h-112 dark:text-zinc-900 rounded-lg md:w-[30%] '>
+              <div className='px-6 py-28 flex flex-col justify-center items-center text-center dark:text-white'>
                 <Image src={design} width="100" height="100" alt='icon of a UI and UX Designer' />
                 <h3 className='font-bold text-lg text-teal-600'>Modern and beatyful layouts</h3>
                 <h4 className='font-semibold'>I do layout with my knowledges about UI and UX Design</h4>
                 <h5 className='font-medium'>Design tools i use</h5>
-                <ul className='mt-4 text-gray-800 font-medium flex flex-col justify-center items-center max-w-[80%] gap-4'>
+                <ul className='mt-4 text-gray-800 font-medium flex flex-col justify-center items-center max-w-[80%] gap-4 dark:text-white '>
                   <li>Figma</li>
                   <li>Adobe XD</li>
                   <li>Photoshop</li>
                 </ul>
               </div>
             </li>
-            <li className=' bg-zinc-900 dark:bg-white flex flex-col justify-center items-center w-full h-112 dark:text-zinc-900 rounded-lg md:w-[30%]'>
-              <div className='px-6 py-20 flex flex-col justify-center items-center text-center'>
+            <li className='shadow-lg bg-gray-100 dark:bg-[#111111] flex flex-col justify-center items-center w-full h-112 dark:text-zinc-900 rounded-lg md:w-[30%]'>
+              <div className='px-6 py-20 flex flex-col justify-center items-center text-center dark:text-white'>
                 <Image src={consulting} width="100" height="100" alt='icon of a better code' />
                 <h3 className='font-bold text-lg text-teal-600'>Semanctic code, better to SEO</h3>
                 <h4 className='font-semibold text-center'>I write code with my knowledges about SEO Optimization, good for your business,blog, website...</h4>
                 <h5 className='font-medium'>Good for ranking in</h5>
-                <ul className='mt-4 text-gray-800 font-medium flex flex-col justify-center items-center max-w-[80%] gap-4'>
+                <ul className='mt-4 text-gray-800 font-medium flex flex-col justify-center items-center max-w-[80%] gap-4 dark:text-white'>
                   <li>Google search</li>
                   <li>Bing search</li>
                   <li>Yahoo search</li>
