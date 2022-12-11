@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 
-import { AiFillLinkedin, AiFillTwitterCircle, AiFillYoutube, AiFillInstagram } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillTwitterCircle, AiFillYoutube, AiFillInstagram, AiFillGithub } from 'react-icons/ai';
 import deved from '../public/dev-ed-wave.png';
 import FaviconVercel from '../public/favicon.ico';
 
@@ -37,6 +37,11 @@ export default function Home() {
               <li>
                 <Link href="https://br.linkedin.com/in/junior-guimar%C3%A3es-952625203" target="_blank">
                   <AiFillLinkedin size="36" className='dark:fill-white hover:opacity-80 duration-700 cursor-pointer' />
+                </Link>
+              </li>
+              <li>
+                <Link href="https://github.com/nioritos" target="_blank">
+                  <AiFillGithub size="36" className='dark:fill-white hover:opacity-80 duration-700 cursor-pointer' />
                 </Link>
               </li>
               <li>
