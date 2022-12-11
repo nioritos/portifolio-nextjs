@@ -10,21 +10,17 @@ function Projects() {
           <h4 className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 max-[860px]:text-left'>These are my projects, and the tecnologies i used to code it</h4>
           </div>
           <ul className=' flex flex-wrap mt-10 gap-4 max-[860px]:items-center max-[860px]:justify-center max-[1255px]:justify-center'>
-            <li className='py-16 px-5 shadow-2xl bg-gray-100 dark:bg-[#111111] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col '>
-              <h4 className=' text-xl font-medium'>Lorem name project</h4>
-              <p>lorem lorem lorem lorem lorem lorem projects</p>
-              <Link href="https://github.com/nioritos" className='text-teal-600 text-sm'>View more</Link>
+            <li className='py-16 px-5 shadow-2xl bg-gray-100 dark:bg-[#111111] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col max-w-sm'>
+              <h4 className=' text-xl font-medium'>GymMe</h4>
+              <p>A template of GymMe project, with HTML, CSS and Responsive Design</p>
+              <Link href="https://github.com/nioritos/GYMmeUI-landingPage" className='text-teal-600 text-sm'>View more</Link>
             </li>
-            <li className='py-16 px-5 shadow-lg bg-gray-100 dark:bg-[#111111] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col '>
-              <h4 className=' text-xl font-medium'>Lorem name project</h4>
-              <p>lorem lorem lorem lorem lorem lorem projects</p>
-              <Link href="https://github.com/nioritos" className='text-teal-600 text-sm'>View more</Link>
+            <li className='py-16 px-5 shadow-lg bg-gray-100 dark:bg-[#111111] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col max-w-sm'>
+              <h4 className=' text-xl font-medium'>Dev.Finance$</h4>
+              <p>A webapp to manager your incomes and expenses, developed with HTML, CSS, Javascript and Responsive Design</p>
+              <Link href="https://github.com/nioritos/app-dev.finances-replyed" className='text-teal-600 text-sm'>View more</Link>
             </li>
-            <li className='py-16 px-5 shadow-lg bg-gray-100 dark:bg-[#111111] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col '>
-              <h4 className=' text-xl font-medium'>Lorem name project</h4>
-              <p>lorem lorem lorem lorem lorem lorem projects</p>
-              <Link href="https://github.com/nioritos" className='text-teal-600 text-sm'>View more</Link>
-            </li>
+
           </ul>
           <Link href="https://github.com/nioritos" className=' mt-6 text-teal-600 text-base'>More repositories in my Github</Link>
         
