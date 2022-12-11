@@ -29,10 +29,26 @@ export default function Home() {
             <h2 className='font-medium text-lg mt-2 dark:text-gray-200'>Web Developer and UI/UX Designer</h2>
             <p className='text-base text-center md:text-start mt-2 dark:text-gray-300'>Freelancer providing services for programming and design content needs. Contact me now!</p>
             <ul className='flex justify-center items-center gap-4 my-4'>
-              <li><AiFillTwitterCircle size="36" className='dark:fill-white hover:opacity-80 duration-700 cursor-pointer' /></li>
-              <li><AiFillLinkedin size="36" className='dark:fill-white hover:opacity-80 duration-700 cursor-pointer' /></li>
-              <li><AiFillInstagram size="36" className='dark:fill-white hover:opacity-80 duration-700 cursor-pointer' /></li>
-              <li><AiFillYoutube size="36" className='dark:fill-white hover:opacity-80 duration-700 cursor-pointer' /></li>
+              <li>
+                <Link href="https://twitter.com/nioritado" target="_blank">
+                  <AiFillTwitterCircle size="36" className='dark:fill-white hover:opacity-80 duration-700 cursor-pointer' />
+                </Link>
+              </li>
+              <li>
+                <Link href="https://br.linkedin.com/in/junior-guimar%C3%A3es-952625203" target="_blank">
+                  <AiFillLinkedin size="36" className='dark:fill-white hover:opacity-80 duration-700 cursor-pointer' />
+                </Link>
+              </li>
+              <li>
+                <Link href="https://instagram.com/nioritos" target="_blank">
+                  <AiFillInstagram size="36" className='dark:fill-white hover:opacity-80 duration-700 cursor-pointer' />
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.youtube.com/channel/UCIQQVyoUl-POpXFfvi3imxA" target="_blank">
+                  <AiFillYoutube size="36" className='dark:fill-white hover:opacity-80 duration-700 cursor-pointer' />
+                </Link>
+              </li>
             </ul>
             <Link href="" className='bg-teal-500 duration-700 hover:bg-teal-600 hover:text-white text-gray-200 py-2 px-20 rounded-lg mb-8 '><strong>See more</strong></Link>
           </div>
