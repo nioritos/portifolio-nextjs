@@ -58,11 +58,19 @@ export default function Home() {
             <Link href="" className='bg-teal-500 duration-700 hover:bg-teal-600 hover:text-white text-gray-200 py-2 px-20 rounded-lg mb-8 '><strong>See more</strong></Link>
           </div>
           <div className="bg-gradient-to-b from-teal-500 circle rounded-full w-80 h-80 relative overflow-hidden m-auto">
-            <Image src={deved} layout="fill" objectFit="cover" alt='my image'/>
+            <Image src={deved} layout="fill" objectFit="cover" alt='my image' />
           </div>
-        </section> 
+        </section>
         <Services />
         <Projects />
+
+        <section className=''>
+		<div className=''>
+			<form action=''> 
+	  			:	
+	  		</form>
+	        </div>
+        </section>
       </main>
     </div>
   )
