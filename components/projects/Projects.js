@@ -25,6 +25,11 @@ function Projects() {
               <p>A webapp inspired in a pokedex, developed without focus in css code, using Pokedex API, ReactJS, and a Responsive Design.</p>
               <Link href="https://pokedex-nine-flame.vercel.app/" target="_blank" className='text-teal-600 text-sm'>View more</Link>
             </li>
+            <li className='py-16 px-5 shadow-lg bg-gray-100 dark:bg-[#111111] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col max-w-sm'>
+              <h4 className=' text-xl font-medium'>Search GitHub profiles</h4>
+              <p>a webapp to get any github profile, using ReactJS and Github api, but it do not have a responsive web design.</p>
+              <Link href="https://nioritos-using-api-crypto-pages.vercel.app/" target="_blank" className='text-teal-600 text-sm'>View more</Link>
+            </li>
 
           </ul>
           <Link href="https://github.com/nioritos" className=' mt-6 text-teal-600 text-base'>More repositories in my Github</Link>
