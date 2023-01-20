@@ -11,6 +11,11 @@ function Projects() {
           </div>
           <ul className=' flex flex-wrap mt-10 gap-4 max-[860px]:items-center max-[860px]:justify-center max-[1255px]:justify-center'>
             <li className='py-16 px-5 shadow-2xl bg-gray-100 dark:bg-[#111111] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col max-w-sm'>
+              <h4 className=' text-xl font-medium'>TodoList Vanila</h4>
+              <p>A todolist developed with the Javascript Vanila</p>
+              <Link href="https://todolist-js-vanila.vercel.app" target="_blank" className='text-teal-600 text-sm'>View more</Link>
+            </li>
+            <li className='py-16 px-5 shadow-2xl bg-gray-100 dark:bg-[#111111] gap-2 dark:text-white border-teal-600 border-2 rounded-lg flex flex-col max-w-sm'>
               <h4 className=' text-xl font-medium'>Crypto Pages</h4>
               <p>A website developed with ReactJS and using the coingecko api</p>
               <Link href="https://nioritos-using-api-crypto-pages.vercel.app/" target="_blank" className='text-teal-600 text-sm'>View more</Link>
