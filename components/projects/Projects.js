@@ -4,7 +4,7 @@ import Link from 'next/link';
 function Projects() {
     return(
         <section id="project" className='mt-60 w-full flex justify-center items-center'>
-        <div className="flex flex-col w-full h-full justify-center items-center">
+        <div className=" w-full flex flex-col w-full h-full justify-center items-center">
           <div className='flex flex-col w-full items-center'>
             <h3 className="text-3xl py-1 text-teal-600 font-bold">Projects</h3>
           <h4 className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 max-[860px]:text-left'>These are my projects, and the tecnologies i used to code it</h4>
